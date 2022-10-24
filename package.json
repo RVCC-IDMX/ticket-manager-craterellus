@@ -1,0 +1,20 @@
+{
+  "name": "ticket-manager-craterellus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RVCC-IDMX/ticket-manager-craterellus.git"
+  },
+  "keywords": [],
+  "author": "Sarah Lopez <sarah.singing.cheese@gmail.com> (https://github.com/craterellus)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RVCC-IDMX/ticket-manager-craterellus/issues"
+  },
+  "homepage": "https://github.com/RVCC-IDMX/ticket-manager-craterellus#readme"
+}
