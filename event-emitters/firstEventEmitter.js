@@ -2,4 +2,4 @@ const { EventEmitter } = require('events');
 
 const firstEmitter = new EventEmitter();
 
-firstEmitter.emit('My first event');
+firstEmitter.emit('\n My first event');

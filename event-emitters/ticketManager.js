@@ -1,5 +1,9 @@
 const EventEmitter = require('events');
 
+const chalk = require('chalk');
+
+const { log } = console;
+
 class TicketManager extends EventEmitter {
   constructor(supply) {
     super();
@@ -13,7 +17,7 @@ class TicketManager extends EventEmitter {
       return;
     }
 
-    this.emit('error', new Error('There are no more tickets left to purchase'));
+    this.emit('error', new Error('\nThere are no more tickets left to purchase'));
   }
 }
 module.exports = TicketManager;
